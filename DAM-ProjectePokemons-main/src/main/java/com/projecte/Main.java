@@ -23,6 +23,16 @@ public class Main extends Application {
         // Carrega la vista inicial des del fitxer FXML
         UtilsViews.parentContainer.setStyle("-fx-font: 14 arial;");
         UtilsViews.addView(getClass(), "ViewStart", "/assets/viewStart.fxml");
+        
+        UtilsViews.addView(getClass(), "ViewMenu", "/assets/ViewMenu.fxml");
+        UtilsViews.addView(getClass(), "ViewManagement", "/assets/ViewManagement.fxml");
+        UtilsViews.addView(getClass(), "ViewStats", "/assets/ViewStats.fxml");
+        UtilsViews.addView(getClass(), "ViewPokemonSettings", "/assets/ViewPokemonSettings.fxml");
+        UtilsViews.addView(getClass(), "ViewHistory", "/assets/ViewHistory.fxml");
+        UtilsViews.addView(getClass(), "ViewBattleOptions", "/assets/ViewBattleOptions.fxml");
+        UtilsViews.addView(getClass(), "ViewBattleAttack", "/assets/ViewBattleAttack.fxml");
+        UtilsViews.addView(getClass(), "ViewAttackResult", "/assets/ViewAttackResult.fxml");
+        UtilsViews.addView(getClass(), "ViewBattleResult", "/assets/ViewBattleResult.fxml");
 
         // Mostrar la finestra
         Scene scene = new Scene(UtilsViews.parentContainer);
